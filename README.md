@@ -35,6 +35,10 @@
 
 > ###  Now you can use the commands in the "main.py" file to control your bot. You can also add more commands to the bot by adding more functions in the "main.py" file.
 
-> ### Woohoo! You have created your own Discord Bot.
+
+
+
+
+# Woohoo! You have created your own Discord Bot.
 
 
