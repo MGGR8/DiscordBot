@@ -2,9 +2,9 @@
 
 ## A Discord Bot made using Python
 
-### 1. Go to {https://discord.com/developers/docs/intro} , sign up/log in and create a new application.
+### 1. Go to [link](https://discord.com/developers/docs/intro) , sign up/log in and create a new application.
 
-### 2. Open the following Link : {https://replit.com/} 
+### 2. Open the following Link : [link](https://replit.com/) 
 
 ### 3. Click on "Sign Up" and create an account.
 
@@ -24,7 +24,7 @@
 
 ### 11. Now in the repl.it editor and click on "Run" and your bot will be online.
 
-### 12. Now we want our bot to be awake at all times. For this, we will use a service called "Uptime Robot". Go to {https://uptimerobot.com/} and create an account.
+### 12. Now we want our bot to be awake at all times. For this, we will use a service called "Uptime Robot". Go to [link](https://uptimerobot.com/) and create an account.
 
 ### 13. Click on "Add New Monitor" and select "HTTP(s)".
 
