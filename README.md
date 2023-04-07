@@ -2,7 +2,7 @@
 
 ## A Discord Bot made using Python
 
-### 1. Go to {https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications} , sign up/log in and create a new application.
+### 1. Go to {https://discord.com/developers/docs/intro} , sign up/log in and create a new application.
 
 ### 2. Open the following Link : {https://replit.com/} 
 
