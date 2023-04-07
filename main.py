@@ -1,9 +1,11 @@
+import os
 import discord
 from discord.ext import commands
 from keep_alive import keep_alive 
 intents = discord.Intents.all()
 
 client = commands.Bot(command_prefix='!', intents=intents)
+my_secret = os.environ['Token']
 
 @client.event
 async def on_ready():
@@ -12,7 +14,7 @@ async def on_ready():
 
 @client.command()
 async def doubt(ctx, arg):
-    channelID = 1234567890 # Replace with the ID of the channel to post the embedded message
+    channelID = 1093521032402452561  # Replace with the ID of the channel to post the embedded message
     link = f"https://discordapp.com/channels/{ctx.guild.id}/{ctx.channel.id}/{ctx.message.id}"
     channel = client.get_channel(channelID)
     embed = discord.Embed(title='New Doubt!',
@@ -33,6 +35,6 @@ async def doubt(ctx, arg):
                        .add_field(name='Link', value=jump_url))
   
 keep_alive()
-client.run(
-  'MTA5MzUyNDA0ODM1NDQ3NjA4Mg.GstMZK.yHMUFfgE6lmfg9oPvACQ6oejbwyAR5A8IHv_ls')
+client.run(my_secret)
+
 #  Add your bot token here to use it in your channel
